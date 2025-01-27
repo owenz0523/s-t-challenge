@@ -57,5 +57,4 @@ class DinersList(BaseModel):
         return cls(**data)
     
 if __name__ == "__main__":
-    diners_list = DinersList.load_from_json("fine-dining-dataset.json")
-    print(diners_list)
+    diners_list = DinersList.load_from_json("fine-dining-dataset.json")    
