@@ -1,0 +1,2099 @@
+{
+    "diners": [
+      {
+        "name": "Emily Chen",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-03-15",
+            "rating": 5,
+            "content": "Exceptional experience! The staff accommodated my gluten-free diet with a customized tasting menu. The duck confit was divine."
+          },
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2024-02-20",
+            "rating": 2,
+            "content": "Disappointing. My vegetarian pasta was undercooked, and the service was slow."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-05-20",
+            "number_of_people": 4,
+            "orders": [
+              {
+                "item": "Duck Confit",
+                "dietary_tags": ["gluten-free"],
+                "price": 45.0
+              },
+              {
+                "item": "Salmon Tartare",
+                "dietary_tags": ["nut-free"],
+                "price": 32.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-05-18",
+            "subject": "Gluten-Free Menu Inquiry",
+            "combined_thread": "Hi, I have a reservation on May 20th and need a gluten-free menu. Can you confirm options? Thanks, Emily"
+          }
+        ]
+      },
+      {
+        "name": "Michael Thompson",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-04-10",
+            "rating": 5,
+            "content": "As always, impeccable service and cuisine. The sommelier's wine pairing was perfect."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-05-20",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Beef Bourguignon",
+                "dietary_tags": [],
+                "price": 55.0
+              },
+              {
+                "item": "Chocolate Soufflé",
+                "dietary_tags": [],
+                "price": 18.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-05-15",
+            "subject": "VIP Client Dinner Reservation",
+            "combined_thread": "Hello, Mr. Thompson is a valued VIP client. Please reserve the private dining room for his party on May 20th."
+          }
+        ]
+      },
+      {
+        "name": "Sarah Wilkins",
+        "reviews": [
+          {
+            "restaurant_name": "Seaside Grill",
+            "date": "2024-03-01",
+            "rating": 4,
+            "content": "Lovely waterfront view. The grilled octopus was tender and well-seasoned."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-05-20",
+            "number_of_people": 6,
+            "orders": [
+              {
+                "item": "Bouillabaisse (Modified)",
+                "dietary_tags": ["shellfish-free"],
+                "price": 58.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-05-19",
+            "subject": "Seafood Allergy Inquiry",
+            "combined_thread": "Hi, I have a severe shellfish allergy but would love to try your bouillabaisse. Also, we're celebrating my mother's 70th birthday - any quiet table recommendations?"
+          }
+        ]
+      },
+      {
+        "name": "David Martinez",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-02-14",
+            "rating": 5,
+            "content": "Romantic ambiance, perfectly executed tasting menu. We loved every course."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-05-20",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Chef's Tasting Menu",
+                "dietary_tags": [],
+                "price": 195.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-05-17",
+            "subject": "Wine Pairing Request",
+            "combined_thread": "Looking to book your sommelier pairing menu. P.S. This is our 10th anniversary but we prefer low-key celebrations."
+          }
+        ]
+      },
+      {
+        "name": "Olivia Sanders",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-03-05",
+            "rating": 3,
+            "content": "Atmosphere was beautiful, but the steak arrived lukewarm. Service was attentive, though."
+          },
+          {
+            "restaurant_name": "Tasty Tacos",
+            "date": "2024-04-01",
+            "rating": 5,
+            "content": "Amazing street-style tacos with the perfect amount of spice!"
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-06-01",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Boeuf Bourguignon",
+                "dietary_tags": [],
+                "price": 60.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-05-30",
+            "subject": "Last-Minute Menu Change",
+            "combined_thread": "Hey, I need to switch my beef order to a vegetarian option if possible. Let me know!"
+          }
+        ]
+      },
+      {
+        "name": "Patrick Reed",
+        "reviews": [
+          {
+            "restaurant_name": "Burger Royale",
+            "date": "2024-01-10",
+            "rating": 4,
+            "content": "Fantastic burgers and shakes. Just a bit crowded."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-04-20",
+            "rating": 4,
+            "content": "Outstanding pastries, though the main course could have been warmer."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-07-04",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Duck Confit",
+                "dietary_tags": ["dairy-free"],
+                "price": 46.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-06-28",
+            "subject": "Dairy-Free Inquiry",
+            "combined_thread": "Hi, I need to confirm if the duck confit can be made dairy-free. Thanks!"
+          }
+        ]
+      },
+      {
+        "name": "Julia Pierce",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-02-25",
+            "rating": 2,
+            "content": "Presentation was lovely, but flavors were lacking. The dessert saved the meal."
+          },
+          {
+            "restaurant_name": "Farmhouse Kitchen",
+            "date": "2024-03-10",
+            "rating": 5,
+            "content": "Superb local ingredients and great staff. A hidden gem!"
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-07-15",
+            "number_of_people": 8,
+            "orders": [
+              {
+                "item": "Seared Salmon",
+                "dietary_tags": ["kosher-style"],
+                "price": 38.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-07-01",
+            "subject": "Large Group Booking",
+            "combined_thread": "Hello, we have 8 people for July 15. Some follow a kosher-style diet. Please advise!"
+          }
+        ]
+      },
+      {
+        "name": "Mark Stevenson",
+        "reviews": [
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2024-01-15",
+            "rating": 1,
+            "content": "Pasta was overcooked, and the sauce tasted canned."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-06-05",
+            "rating": 5,
+            "content": "Amazing improvement since my last visit—definitely a favorite now!"
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-08-02",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Escargots",
+                "dietary_tags": [],
+                "price": 25.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-08-01",
+            "subject": "Birthday Note (Hidden)",
+            "combined_thread": "Hey team, it’s actually my birthday tomorrow, but please keep it low-key. Thanks!"
+          }
+        ]
+      },
+      {
+        "name": "Rebecca Cole",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-01-03",
+            "rating": 2,
+            "content": "Service was slow, and the filet was under-seasoned. Desserts were great though."
+          },
+          {
+            "restaurant_name": "Steakhouse Prime",
+            "date": "2024-02-10",
+            "rating": 4,
+            "content": "Wonderful steak and excellent wine list."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-08-10",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Ratatouille",
+                "dietary_tags": ["vegan"],
+                "price": 30.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-08-08",
+            "subject": "Allergic to Nuts",
+            "combined_thread": "Hi, just checking that the ratatouille is 100% nut-free. Thank you!"
+          }
+        ]
+      },
+      {
+        "name": "Aaron Phillips",
+        "reviews": [
+          {
+            "restaurant_name": "Tasty Tacos",
+            "date": "2024-03-12",
+            "rating": 3,
+            "content": "Good flavors, but my order arrived lukewarm."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-07-06",
+            "rating": 5,
+            "content": "They absolutely nailed our anniversary dinner. The staff made it extra special."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-01-10",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Chef's Tasting Menu",
+                "dietary_tags": [],
+                "price": 185.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-02",
+            "subject": "Anniversary Details",
+            "combined_thread": "Hello, we’re celebrating our 2nd anniversary and would love a quiet corner if possible."
+          }
+        ]
+      },
+      {
+        "name": "Carolyn Diaz",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-05-10",
+            "rating": 4,
+            "content": "Attentive staff, refined dishes. This was my third visit; it keeps getting better!"
+          },
+          {
+            "restaurant_name": "Green Garden Sushi",
+            "date": "2024-03-01",
+            "rating": 3,
+            "content": "Fresh sushi but slow service. Overall decent."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-09-01",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Foie Gras",
+                "dietary_tags": [],
+                "price": 50.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-08-29",
+            "subject": "Return Visit Inquiry",
+            "combined_thread": "Hi, I'm a repeat customer and would love to see if there's any VIP benefit or priority seating available. Thanks!"
+          }
+        ]
+      },
+      {
+        "name": "Derek Carter",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-03-21",
+            "rating": 4,
+            "content": "Superb cheese cart! The staff was knowledgeable about each variety."
+          },
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2024-01-25",
+            "rating": 2,
+            "content": "Overly salted marinara sauce and a cramped dining room."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-09-05",
+            "number_of_people": 4,
+            "orders": [
+              {
+                "item": "Boeuf Bourguignon",
+                "dietary_tags": ["gluten-free"],
+                "price": 59.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-09-02",
+            "subject": "VIP Security Inquiry",
+            "combined_thread": "Hello, my associate is a high-profile guest. Any discrete entry or security detail arrangement possible?"
+          }
+        ]
+      },
+      {
+        "name": "Evelyn Foster",
+        "reviews": [
+          {
+            "restaurant_name": "Burger Royale",
+            "date": "2024-06-02",
+            "rating": 5,
+            "content": "Best burgers in town! Juicy, perfectly cooked, and the fries were stellar."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-07-18",
+            "rating": 3,
+            "content": "Nice décor, but the portion sizes left me wanting more."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-10-10",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Escargots",
+                "dietary_tags": [],
+                "price": 26.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-10-08",
+            "subject": "Last-Minute Reservation Adjustment",
+            "combined_thread": "Hi, I'd like to change my order from escargots to the vegetarian quiche if possible."
+          }
+        ]
+      },
+      {
+        "name": "Frank Garcia",
+        "reviews": [
+          {
+            "restaurant_name": "Steakhouse Prime",
+            "date": "2024-04-30",
+            "rating": 2,
+            "content": "Steak was decent, but service was inattentive. Expected more for the price."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-09-01",
+            "rating": 5,
+            "content": "Excellent amuse-bouche, world-class plating, and the lamb was perfect."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-11-25",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Rack of Lamb",
+                "dietary_tags": ["nut-free"],
+                "price": 65.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-11-22",
+            "subject": "Menu Swap Request",
+            "combined_thread": "Hello, I'd like to switch from the ribeye to the lamb at the last minute if that's feasible."
+          }
+        ]
+      },
+      {
+        "name": "Gina Russell",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-01-12",
+            "rating": 4,
+            "content": "Light, elegant courses. Loved the fish entrée."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-01-14",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Coq au Vin",
+                "dietary_tags": ["halal"],
+                "price": 48.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-10",
+            "subject": "Halal Preparation",
+            "combined_thread": "Hi, can the coq au vin be prepared without any non-halal ingredients? Thank you!"
+          }
+        ]
+      },
+      {
+        "name": "Hannah Edwards",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-10-05",
+            "rating": 5,
+            "content": "Absolutely stunning meal from start to finish. We’ll be back soon!"
+          },
+          {
+            "restaurant_name": "Green Garden Sushi",
+            "date": "2024-07-20",
+            "rating": 3,
+            "content": "Fresh fish, but too many fusion items overshadowed the classics."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-02-10",
+            "number_of_people": 7,
+            "orders": [
+              {
+                "item": "Cassoulet",
+                "dietary_tags": [],
+                "price": 55.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-01",
+            "subject": "Large Party Seating",
+            "combined_thread": "Hello, we're a group of 7. Could we have a semi-private area? We have a publisher joining us for our review team."
+          }
+        ]
+      },
+      {
+        "name": "Iris McDonald",
+        "reviews": [
+          {
+            "restaurant_name": "Mamma Mia Pasta",
+            "date": "2024-06-15",
+            "rating": 5,
+            "content": "Homemade pasta and a delightful tiramisu—bellissimo!"
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-12-01",
+            "rating": 3,
+            "content": "Classy presentation, but flavors could have been bolder. Still a nice night out."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-01-25",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Salade Niçoise",
+                "dietary_tags": ["pescatarian"],
+                "price": 26.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-20",
+            "subject": "Pescatarian Option",
+            "combined_thread": "Hi, I'd like to confirm that the Salade Niçoise is fully pescatarian with no hidden meats. Thanks!"
+          }
+        ]
+      },
+      {
+        "name": "Jack Kramer",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-03-18",
+            "rating": 5,
+            "content": "Simply flawless. The service and ambiance were top-notch."
+          },
+          {
+            "restaurant_name": "Le Petit Creperie",
+            "date": "2024-05-22",
+            "rating": 2,
+            "content": "Crepes were underdone and soggy."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-03-01",
+            "number_of_people": 10,
+            "orders": [
+              {
+                "item": "Chef's Tasting Menu",
+                "dietary_tags": [],
+                "price": 180.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-25",
+            "subject": "Large Group Celebration",
+            "combined_thread": "We have 10 people attending a celebratory dinner. Could you arrange some special table decorations?"
+          }
+        ]
+      },
+      {
+        "name": "Karen Olson",
+        "reviews": [
+          {
+            "restaurant_name": "Tasty Tacos",
+            "date": "2024-02-28",
+            "rating": 3,
+            "content": "Good al pastor, but the tortillas were a bit dry."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-06-11",
+            "rating": 4,
+            "content": "Fabulous interior design and a lovely amuse-bouche. I'd return."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-04-20",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Roasted Duck Breast",
+                "dietary_tags": ["gluten-free"],
+                "price": 50.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-04-18",
+            "subject": "VIP Diner Note",
+            "combined_thread": "Hello, Ms. Olson is a diplomatic guest. Please ensure a private experience. Thank you."
+          }
+        ]
+      },
+      {
+        "name": "Larry Ford",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-01-09",
+            "rating": 5,
+            "content": "Second time here and it keeps impressing me. Phenomenal staff!"
+          },
+          {
+            "restaurant_name": "Burger Royale",
+            "date": "2024-03-02",
+            "rating": 2,
+            "content": "Dry patty and wilted lettuce, not worth it."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2024-07-02",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Beef Bourguignon",
+                "dietary_tags": [],
+                "price": 58.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2024-06-30",
+            "subject": "Repeat Customer Appreciation",
+            "combined_thread": "Hi, I’ve dined with you multiple times. Is there any loyalty perk for returning guests?"
+          }
+        ]
+      },
+      {
+        "name": "Megan Parker",
+        "reviews": [
+          {
+            "restaurant_name": "Seaside Grill",
+            "date": "2024-05-11",
+            "rating": 2,
+            "content": "Overcooked fish and too noisy. The view was the only plus."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-12-03",
+            "rating": 5,
+            "content": "A masterclass in French cuisine! Perfectly executed every dish."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-02-20",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Lobster Bisque",
+                "dietary_tags": ["dairy-free"],
+                "price": 45.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-15",
+            "subject": "Last-Minute Switch to Dairy-Free",
+            "combined_thread": "Hey, I realized I need dairy-free options. Please update my order for the bisque accordingly."
+          }
+        ]
+      },
+      {
+        "name": "Neil Brooks",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-07-25",
+            "rating": 4,
+            "content": "Refined dishes and a knowledgeable sommelier. Great evening overall."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-03-02",
+            "number_of_people": 6,
+            "orders": [
+              {
+                "item": "Coq au Vin",
+                "dietary_tags": ["nut-free"],
+                "price": 47.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-20",
+            "subject": "Large Party Clarification",
+            "combined_thread": "Hi, we have 6 people. One is allergic to nuts. Ensuring the coq au vin is nut-free, correct?"
+          }
+        ]
+      },
+      {
+        "name": "Oscar Hayes",
+        "reviews": [
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2024-06-05",
+            "rating": 3,
+            "content": "Decent lasagna, but the service was slow on a busy night."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-08-22",
+            "rating": 5,
+            "content": "Stunning plating and flavors that matched the visual appeal."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-01-15",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Escargots",
+                "dietary_tags": [],
+                "price": 22.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-10",
+            "subject": "Hidden Birthday Mention",
+            "combined_thread": "Hi, it's my girlfriend’s birthday. Please no singing—just a small candle on dessert. Thank you!"
+          }
+        ]
+      },
+      {
+        "name": "Paula Ross",
+        "reviews": [
+          {
+            "restaurant_name": "The Spicy Fork",
+            "date": "2024-04-10",
+            "rating": 4,
+            "content": "Fiery flavors! Loved the habanero sauce, though it was intense."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-11-16",
+            "rating": 2,
+            "content": "Ambiance was great, but the main course was bland."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-02-28",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Crêpe Suzette",
+                "dietary_tags": [],
+                "price": 18.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-25",
+            "subject": "Quiet Anniversary Request",
+            "combined_thread": "We’re celebrating our anniversary but want a quiet table, no fuss, no banners, please."
+          }
+        ]
+      },
+      {
+        "name": "Quentin Meyer",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-01-22",
+            "rating": 5,
+            "content": "Phenomenal staff and creative dishes. My second visit, and it won't be my last."
+          },
+          {
+            "restaurant_name": "Sushi Den",
+            "date": "2024-02-10",
+            "rating": 3,
+            "content": "Fresh fish but the rolls lacked imagination."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-04-15",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Boeuf Bourguignon",
+                "dietary_tags": ["gluten-free"],
+                "price": 54.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-04-10",
+            "subject": "Returning Customer Inquiry",
+            "combined_thread": "Hey, I'm returning for the second time this year—any new seasonal dishes to try?"
+          }
+        ]
+      },
+      {
+        "name": "Rachel Simmons",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-06-12",
+            "rating": 3,
+            "content": "Impressive ambiance, but my chicken dish was slightly overcooked."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-05-01",
+            "number_of_people": 9,
+            "orders": [
+              {
+                "item": "Chef's Tasting Menu",
+                "dietary_tags": [],
+                "price": 165.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-04-27",
+            "subject": "Large Group - Critic Involved",
+            "combined_thread": "Hello, we have a food critic from our publication joining the group. Please ensure a seamless experience."
+          }
+        ]
+      },
+      {
+        "name": "Steven Black",
+        "reviews": [
+          {
+            "restaurant_name": "Green Garden Sushi",
+            "date": "2024-02-15",
+            "rating": 2,
+            "content": "Rice was mushy; left disappointed. Hope they improve soon."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-05-05",
+            "rating": 5,
+            "content": "Exceeded every expectation! The dessert trolley was divine."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-06-10",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Coquilles Saint-Jacques",
+                "dietary_tags": ["shellfish-free"],
+                "price": 50.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-06-01",
+            "subject": "Allergy Confirmation",
+            "combined_thread": "Hi, confirming the scallops can be done without any actual shellfish additives. Thanks!"
+          }
+        ]
+      },
+      {
+        "name": "Tina Harrison",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-03-25",
+            "rating": 4,
+            "content": "Beautiful plating, though I'd have liked bigger portion sizes. Still a treat."
+          },
+          {
+            "restaurant_name": "Mamma Mia Pasta",
+            "date": "2024-02-02",
+            "rating": 3,
+            "content": "Sauce was amazing, pasta slightly overdone."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-01-05",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Cheese Tasting Plate",
+                "dietary_tags": ["vegetarian"],
+                "price": 28.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-02",
+            "subject": "Vegetarian Cheese Options",
+            "combined_thread": "Hi, can you confirm that the cheeses are all vegetarian (rennet-free)? Thanks."
+          }
+        ]
+      },
+      {
+        "name": "Uma Johnson",
+        "reviews": [
+          {
+            "restaurant_name": "Steakhouse Prime",
+            "date": "2024-05-20",
+            "rating": 4,
+            "content": "Well-cooked steak, though the sides were just okay."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-10-15",
+            "rating": 5,
+            "content": "A feast for the eyes and the palate. The pastry cart is heavenly."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-02-18",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Bouillabaisse",
+                "dietary_tags": ["shellfish-free"],
+                "price": 52.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-10",
+            "subject": "Shellfish-Free Inquiry",
+            "combined_thread": "Hello, I love bouillabaisse but can't have shellfish. Could you modify it accordingly?"
+          }
+        ]
+      },
+      {
+        "name": "Victor Kim",
+        "reviews": [
+          {
+            "restaurant_name": "Burger Royale",
+            "date": "2024-04-05",
+            "rating": 3,
+            "content": "Burgers were fine, but the milkshake was watery."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-03-20",
+            "number_of_people": 12,
+            "orders": [
+              {
+                "item": "Chef's Tasting Menu",
+                "dietary_tags": [],
+                "price": 170.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-03-10",
+            "subject": "Large Group - Diplomatic Party",
+            "combined_thread": "We have a diplomatic delegation of 12. Please arrange appropriate seating and privacy."
+          }
+        ]
+      },
+      {
+        "name": "Wanda Doyle",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-01-15",
+            "rating": 5,
+            "content": "Consistently wonderful. Love bringing out-of-towners here to impress them."
+          },
+          {
+            "restaurant_name": "Green Garden Sushi",
+            "date": "2024-03-22",
+            "rating": 2,
+            "content": "Rice was cold, fish was not as fresh as I'd hoped."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-04-05",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Foie Gras",
+                "dietary_tags": [],
+                "price": 55.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-04-01",
+            "subject": "Birthday Celebration (Hidden)",
+            "combined_thread": "Could you include a small ‘Happy Birthday’ note on the dessert? I don’t want a big show."
+          }
+        ]
+      },
+      {
+        "name": "Xavier White",
+        "reviews": [
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2024-02-12",
+            "rating": 5,
+            "content": "Authentic flavors and a cozy atmosphere!"
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-05-28",
+            "rating": 3,
+            "content": "Pricey, but the plating was impressive. Could be more generous."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-01-20",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Lobster Thermidor",
+                "dietary_tags": [],
+                "price": 60.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-15",
+            "subject": "Critic Visit Notice",
+            "combined_thread": "Hi, I'm reviewing for our publication. I’ll be discreet, but wanted you to be aware."
+          }
+        ]
+      },
+      {
+        "name": "Yvonne Blair",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-07-10",
+            "rating": 2,
+            "content": "Service felt rushed and the dessert arrived cold. Not the best first impression."
+          },
+          {
+            "restaurant_name": "The Spicy Fork",
+            "date": "2024-09-01",
+            "rating": 5,
+            "content": "Incredible bold spices that left me craving more!"
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-02-02",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Crème Brûlée",
+                "dietary_tags": [],
+                "price": 16.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-28",
+            "subject": "Quiet Corner Request",
+            "combined_thread": "Could we be seated in a quieter area? Hoping for a romantic evening."
+          }
+        ]
+      },
+      {
+        "name": "Zach Morris",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-04-04",
+            "rating": 5,
+            "content": "Unbelievably good. The tasting menu was a journey through flavor."
+          },
+          {
+            "restaurant_name": "Steakhouse Prime",
+            "date": "2023-12-20",
+            "rating": 3,
+            "content": "Steak was decent but overpriced. Sides were fantastic though."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-03-10",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Escargots",
+                "dietary_tags": [],
+                "price": 24.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-03-05",
+            "subject": "Special Date",
+            "combined_thread": "This is a special date for us—would love a corner booth if possible."
+          }
+        ]
+      },
+      {
+        "name": "Abigail Perez",
+        "reviews": [
+          {
+            "restaurant_name": "Green Garden Sushi",
+            "date": "2024-03-11",
+            "rating": 4,
+            "content": "Tasty omakase and friendly service. Just wish they had more variety."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-07-02",
+            "rating": 1,
+            "content": "A chaotic night—our reservation was lost, and the staff seemed overwhelmed."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-06-01",
+            "number_of_people": 6,
+            "orders": [
+              {
+                "item": "Cassoulet",
+                "dietary_tags": ["nut-free"],
+                "price": 52.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-05-20",
+            "subject": "Menu & Seating Confirmation",
+            "combined_thread": "Hello, we’re a party of 6 and one is allergic to nuts. Also, a cozy table if possible, please."
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Crawford",
+        "reviews": [
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2023-09-12",
+            "rating": 5,
+            "content": "Authentic flavors, especially the homemade ravioli. I’ll definitely return!"
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-02-14",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Truffle Risotto",
+                "dietary_tags": ["vegetarian"],
+                "price": 40.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-01",
+            "subject": "Valentine's Day Surprise",
+            "combined_thread": "Hello, I'd like to add a small surprise note on dessert for my partner's birthday—discreetly, please."
+          }
+        ]
+      },
+      {
+        "name": "Cindy Dawson",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-11-15",
+            "rating": 5,
+            "content": "Everything was exquisite—the amuse-bouche alone was a work of art."
+          },
+          {
+            "restaurant_name": "La Bella Vista",
+            "date": "2024-01-03",
+            "rating": 2,
+            "content": "Nice view, but the seafood was bland and overpriced."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-03-25",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Filet Mignon",
+                "dietary_tags": [],
+                "price": 58.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-03-20",
+            "subject": "Critic Team Visit",
+            "combined_thread": "Our review team would like a table with a view of the open kitchen if possible. We are from a local magazine."
+          }
+        ]
+      },
+      {
+        "name": "Damon Ellis",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-09-09",
+            "rating": 2,
+            "content": "Expected more. The plating was beautiful, but service was inattentive."
+          },
+          {
+            "restaurant_name": "Burger Royale",
+            "date": "2024-05-16",
+            "rating": 5,
+            "content": "Unreal burger flavor! I'll be back soon."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-04-05",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Lobster Bisque",
+                "dietary_tags": [],
+                "price": 44.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-03-31",
+            "subject": "New Menu Inquiry",
+            "combined_thread": "Hi, I saw there's a new spring menu—could you share more details before I finalize my order?"
+          }
+        ]
+      },
+      {
+        "name": "Erica Freeman",
+        "reviews": [
+          {
+            "restaurant_name": "Green Garden Sushi",
+            "date": "2024-07-22",
+            "rating": 5,
+            "content": "Beautifully fresh sashimi and creative rolls—absolutely loved it."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-05-10",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Coq au Vin",
+                "dietary_tags": [],
+                "price": 50.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-05-01",
+            "subject": "VIP Guest Handling",
+            "combined_thread": "Ms. Freeman is a high-profile visitor. Please provide a discreet entry and table in a semi-private area."
+          }
+        ]
+      },
+      {
+        "name": "Fiona Grant",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-02-28",
+            "rating": 4,
+            "content": "Elegant experience. The amuse-bouche and dessert were highlights."
+          },
+          {
+            "restaurant_name": "The Spicy Fork",
+            "date": "2024-01-10",
+            "rating": 2,
+            "content": "Overly spicy, to the point of losing flavor. Not for me."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-06-12",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Duck Confit",
+                "dietary_tags": ["dairy-free"],
+                "price": 48.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-06-01",
+            "subject": "Return Customer Inquiry",
+            "combined_thread": "Hi, I'm coming back to try the duck confit after loving the dessert last time. Any new recommendations?"
+          }
+        ]
+      },
+      {
+        "name": "Greg Howard",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-06-11",
+            "rating": 5,
+            "content": "Worth every penny. The sauces were complex and delicious."
+          },
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2024-01-25",
+            "rating": 3,
+            "content": "Comfort food, but nothing mind-blowing. Good service though."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-01-15",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Rabbit Roulade",
+                "dietary_tags": [],
+                "price": 62.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-10",
+            "subject": "Anniversary Note",
+            "combined_thread": "It's our 5th wedding anniversary—any chance to have a small celebratory garnish on dessert?"
+          }
+        ]
+      },
+      {
+        "name": "Helen Ingram",
+        "reviews": [
+          {
+            "restaurant_name": "Sushi Den",
+            "date": "2023-12-12",
+            "rating": 4,
+            "content": "Excellent variety on the omakase menu. Will return for sure."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-03-05",
+            "rating": 3,
+            "content": "High-end but left me a bit underwhelmed. Perhaps an off night."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-03-03",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Salmon en Papillote",
+                "dietary_tags": ["gluten-free"],
+                "price": 42.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-28",
+            "subject": "Menu Confirmation",
+            "combined_thread": "Hi, confirming the salmon en papillote is gluten-free with no cross-contamination. Thanks!"
+          }
+        ]
+      },
+      {
+        "name": "Ian Jackson",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-08-02",
+            "rating": 4,
+            "content": "Lovely amuse-bouche, and the wine list is extensive. Slightly pricey, though."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-04-22",
+            "number_of_people": 4,
+            "orders": [
+              {
+                "item": "Cassoulet",
+                "dietary_tags": [],
+                "price": 55.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-04-15",
+            "subject": "Menu Questions",
+            "combined_thread": "Hello, does your cassoulet include pork? We have someone who avoids it. Thanks!"
+          }
+        ]
+      },
+      {
+        "name": "Jasmine King",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-01-18",
+            "rating": 5,
+            "content": "One of the best fine-dining spots around. The pastry chef is a genius!"
+          },
+          {
+            "restaurant_name": "The Spicy Fork",
+            "date": "2024-03-06",
+            "rating": 1,
+            "content": "Burned my mouth—way too spicy with no warning. Couldn't finish."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-07-01",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Boeuf Bourguignon",
+                "dietary_tags": ["dairy-free"],
+                "price": 58.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-06-28",
+            "subject": "Dairy-Free Check",
+            "combined_thread": "Hi, I'm lactose intolerant. Ensuring the boeuf bourguignon can be prepared without butter or cream?"
+          }
+        ]
+      },
+      {
+        "name": "Kevin Lee",
+        "reviews": [
+          {
+            "restaurant_name": "Mamma Mia Pasta",
+            "date": "2024-05-10",
+            "rating": 5,
+            "content": "Delicious homemade pasta and a friendly atmosphere. Bravo!"
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-10-02",
+            "rating": 3,
+            "content": "Underwhelmed by the main course, but dessert redeemed the meal."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-02-14",
+            "number_of_people": 6,
+            "orders": [
+              {
+                "item": "Valentine's Tasting",
+                "dietary_tags": ["vegan"],
+                "price": 120.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-02-01",
+            "subject": "Vegan Group Menu",
+            "combined_thread": "Hello, our party of 6 is entirely vegan. Can the Valentine's tasting be fully adapted?"
+          }
+        ]
+      },
+      {
+        "name": "Linda Matthews",
+        "reviews": [
+          {
+            "restaurant_name": "Steakhouse Prime",
+            "date": "2024-02-22",
+            "rating": 4,
+            "content": "Great cut of steak, sides were average though. Overall positive."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-06-30",
+            "rating": 2,
+            "content": "Beautiful place, but the fish was undercooked, and I had to send it back."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-03-08",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Escargots",
+                "dietary_tags": [],
+                "price": 28.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-03-02",
+            "subject": "Review Publication Visit",
+            "combined_thread": "I’m part of a small review team for a travel blog—looking forward to sampling your menu."
+          }
+        ]
+      },
+      {
+        "name": "Molly Nichols",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-05-05",
+            "rating": 5,
+            "content": "We keep coming back for the soufflé—absolute perfection every time!"
+          },
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2024-03-19",
+            "rating": 3,
+            "content": "Tiramisu was delicious, but the pasta was plain."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-04-18",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Chocolate Soufflé",
+                "dietary_tags": [],
+                "price": 20.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-04-15",
+            "subject": "Repeat Customer Request",
+            "combined_thread": "Hello again! We visited last month. Any chance the chef could prepare the soufflé slightly differently this time?"
+          }
+        ]
+      },
+      {
+        "name": "Nathan Oliver",
+        "reviews": [
+          {
+            "restaurant_name": "Green Garden Sushi",
+            "date": "2024-01-25",
+            "rating": 5,
+            "content": "Fantastic fish quality, truly fresh. The omakase was memorable."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-05-22",
+            "number_of_people": 8,
+            "orders": [
+              {
+                "item": "Chef's Tasting Menu",
+                "dietary_tags": [],
+                "price": 175.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-05-01",
+            "subject": "Large Group Celebration",
+            "combined_thread": "We have a group of 8 celebrating a milestone. Could we get a special dessert platter?"
+          }
+        ]
+      },
+      {
+        "name": "Olivia Pearson",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-04-12",
+            "rating": 5,
+            "content": "Everything was spot on—staff, ambiance, flavors. Will definitely come back!"
+          },
+          {
+            "restaurant_name": "Seaside Grill",
+            "date": "2024-06-30",
+            "rating": 1,
+            "content": "Terrible wait times and cold food. Disappointing experience."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-01-10",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Salade Niçoise",
+                "dietary_tags": ["pescatarian"],
+                "price": 28.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-01-05",
+            "subject": "Pescatarian Confirmation",
+            "combined_thread": "Hi, just making sure the Niçoise uses no meat or poultry stock in the dressing. Thanks!"
+          }
+        ]
+      },
+      {
+        "name": "Paul Reynolds",
+        "reviews": [
+          {
+            "restaurant_name": "Tasty Tacos",
+            "date": "2024-05-28",
+            "rating": 4,
+            "content": "Great street-style vibe, but long queue. Tacos were worth the wait!"
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-08-08",
+            "rating": 2,
+            "content": "Dessert was the only saving grace. The main was quite bland."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-04-01",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Boeuf Bourguignon",
+                "dietary_tags": [],
+                "price": 56.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-03-20",
+            "subject": "Menu Selection Clarification",
+            "combined_thread": "Hey, I'd like to confirm the preparation of the boeuf bourguignon. Any chance for extra mushrooms?"
+          }
+        ]
+      },
+      {
+        "name": "Quincy Stokes",
+        "reviews": [
+          {
+            "restaurant_name": "La Bella Vista",
+            "date": "2024-02-05",
+            "rating": 3,
+            "content": "Beautiful setting but the wait for food was long. The pasta was good, though."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-10-10",
+            "rating": 5,
+            "content": "Couldn't ask for a better fine-dining experience. The staff is phenomenal."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-05-25",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Escargots",
+                "dietary_tags": [],
+                "price": 24.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-05-20",
+            "subject": "Critic Undercover",
+            "combined_thread": "Hi, I'm traveling with a small review group but prefer to keep it low-profile. Thank you."
+          }
+        ]
+      },
+      {
+        "name": "Rachel Turner",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-12-20",
+            "rating": 5,
+            "content": "Masterful. The holiday specials were a festive treat."
+          },
+          {
+            "restaurant_name": "Steakhouse Prime",
+            "date": "2024-02-22",
+            "rating": 2,
+            "content": "Waited 45 minutes for a medium steak that arrived well-done."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-06-30",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Duck Confit",
+                "dietary_tags": ["kosher-style"],
+                "price": 50.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-06-20",
+            "subject": "Kosher-Style Inquiry",
+            "combined_thread": "Hi, I'd like the duck confit prepared without dairy or non-kosher elements if possible."
+          }
+        ]
+      },
+      {
+        "name": "Samantha Vaughn",
+        "reviews": [
+          {
+            "restaurant_name": "Green Garden Sushi",
+            "date": "2024-01-01",
+            "rating": 1,
+            "content": "Fish had an odd smell—didn't feel fresh at all."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-03-10",
+            "rating": 5,
+            "content": "Incredible dinner, from the amuse-bouche to the after-dinner treats!"
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-07-15",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Crème Brûlée",
+                "dietary_tags": ["gluten-free"],
+                "price": 16.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-07-10",
+            "subject": "Birthday Candle Request",
+            "combined_thread": "Hey, I'd like a small candle on the crème brûlée for my partner's birthday. No singing, please!"
+          }
+        ]
+      },
+      {
+        "name": "Tara Wells",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-05-01",
+            "rating": 2,
+            "content": "Surprisingly mediocre. Maybe the chef was off that night—dessert was the only saving grace."
+          },
+          {
+            "restaurant_name": "Italian Bistro",
+            "date": "2024-06-12",
+            "rating": 5,
+            "content": "Fabulous gnocchi! I’d come back for that alone."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-08-05",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Boeuf Bourguignon",
+                "dietary_tags": [],
+                "price": 57.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-08-01",
+            "subject": "Quiet Table for an Anniversary",
+            "combined_thread": "We're celebrating an anniversary. Any chance for a secluded table? We prefer minimal fuss."
+          }
+        ]
+      },
+      {
+        "name": "Ulysses West",
+        "reviews": [
+          {
+            "restaurant_name": "Burger Royale",
+            "date": "2024-02-25",
+            "rating": 4,
+            "content": "Solid burger, though I'd skip the fries next time. Good vibe overall."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-06-06",
+            "rating": 5,
+            "content": "Top-notch from start to finish. The pastry chef deserves an award."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-03-30",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Seafood Tasting Menu",
+                "dietary_tags": [],
+                "price": 120.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-03-25",
+            "subject": "VIP Secrecy",
+            "combined_thread": "Hi, we have a high-profile individual in our party. Please maintain discretion."
+          }
+        ]
+      },
+      {
+        "name": "Vivian York",
+        "reviews": [
+          {
+            "restaurant_name": "The Spicy Fork",
+            "date": "2024-07-15",
+            "rating": 5,
+            "content": "Mind-blowing flavors if you love heat! Great service as well."
+          },
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-08-22",
+            "rating": 3,
+            "content": "Enjoyed the bread service, but the main course felt under-seasoned."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-04-02",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Crepes Suzette",
+                "dietary_tags": ["nut-free"],
+                "price": 17.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-03-28",
+            "subject": "Allergy Inquiry",
+            "combined_thread": "Hi, confirming there are no nuts used in the crepes. Thank you!"
+          }
+        ]
+      },
+      {
+        "name": "Walter Zephyr",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-01-08",
+            "rating": 2,
+            "content": "Heard so much hype, but found it overpriced. The bread was stale, surprisingly."
+          },
+          {
+            "restaurant_name": "Steakhouse Prime",
+            "date": "2024-03-02",
+            "rating": 4,
+            "content": "Hearty steaks, but wish they had more sauce varieties."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-05-10",
+            "number_of_people": 2,
+            "orders": [
+              {
+                "item": "Lobster Thermidor",
+                "dietary_tags": [],
+                "price": 62.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-05-01",
+            "subject": "Critic's Revisit",
+            "combined_thread": "I'm writing a follow-up for our publication. Hoping to see improvements since my last visit."
+          }
+        ]
+      },
+      {
+        "name": "Xena Foster",
+        "reviews": [
+          {
+            "restaurant_name": "French Laudure",
+            "date": "2024-09-05",
+            "rating": 4,
+            "content": "Exceptional pastry work, but the soup was over-salted."
+          },
+          {
+            "restaurant_name": "The Spicy Fork",
+            "date": "2024-02-28",
+            "rating": 5,
+            "content": "Loved the bold spices, especially on the grilled shrimp."
+          }
+        ],
+        "reservations": [
+          {
+            "date": "2025-07-25",
+            "number_of_people": 4,
+            "orders": [
+              {
+                "item": "Soupe à l’Oignon",
+                "dietary_tags": ["vegetarian"],
+                "price": 14.0
+              },
+              {
+                "item": "Macarons",
+                "dietary_tags": ["gluten-free"],
+                "price": 12.0
+              }
+            ]
+          }
+        ],
+        "emails": [
+          {
+            "date": "2025-07-10",
+            "subject": "Summer Celebration Dinner",
+            "combined_thread": "Hello, we’ve noted we're 4 people, celebrating. Also, need vegetarian and gluten-free items—thanks!"
+          }
+        ]
+      }
+    ]
+  }
