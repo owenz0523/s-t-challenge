@@ -26,6 +26,12 @@ I believe this design is scalable for any size of restaurant, since it effective
 adoption?
 I believe this is highly adoptable, given that I’d imagine a similar process already occurs during morning huddles most likely just with handmade notes
 
+Building:
+compile the data and use LLMs to extract the important information, filling out the important categories needed to create a guest profile
+data is then persisted through to the frontend which populates the dashboard
+agentism???
+data pipelines don’t really exist right now, but with them in place, could have an AI agent that runs every morning to compile this information prior to morning huddle
+
 source - https://www.pushoperations.com/blog/restaurant-management-the-value-of-pre-shift-huddles 
 
 talks about education, engagement, and motivation, how does our product address these?
