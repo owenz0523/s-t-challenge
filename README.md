@@ -4,6 +4,14 @@ Hi! If you're reading this, you're likely completing a challenge hosted at [Show
 
 Please reach out to danny@tryshowandtell.com if you have any issues!
 
+# Notes
+
+look into product.md for a google doc with some of my brainstorming
+
+look into prompts.md for the prompts that I used during building
+
+look into figma.png + figma2.png for the figma mockup that was generated
+
 # To run
 Set your `OPENAI_API_KEY` in a `.env` file
 
