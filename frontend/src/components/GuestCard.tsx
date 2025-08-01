@@ -69,14 +69,14 @@ export function GuestCard({ reservation, viewMode }: GuestCardProps) {
   return (
     <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
       <DialogTrigger asChild>
-        <Card className={`transition-all duration-200 cursor-pointer hover:shadow-md hover:bg-muted/50 ${
-          hasAlerts ? (hasCriticalAllergy && isBackOfHouse ? 'border-red-500 shadow-lg bg-red-50' : 'border-red-200 shadow-md') : ''
+        <Card className={`border-2 transition-all duration-200 cursor-pointer hover:shadow-md hover:bg-muted/50 ${
+          hasAlerts ? (hasCriticalAllergy && isBackOfHouse ? 'border-red-500 shadow-lg bg-red-50' : 'border-red-200 shadow-md') : 'border-gray-300'
         }`}>
-          <div className="p-4">
-            <div className="flex items-start justify-between mb-3">
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <h3 className="font-medium text-foreground">
+          <div className="p-4 text-center">
+            <div className="flex flex-col items-center mb-3">
+              <div className="w-full">
+                <div className="flex items-center justify-center gap-2 mb-1">
+                  <h3 className="font-medium text-foreground text-2xl">
                     {isBackOfHouse ? `Table - ${guestName}` : guestName}
                   </h3>
                   {hasAlerts && (
@@ -91,7 +91,7 @@ export function GuestCard({ reservation, viewMode }: GuestCardProps) {
                   )}
                 </div>
                 
-                <div className="flex items-center gap-4 text-sm text-muted-foreground mb-2">
+                <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground mb-2">
                   <div className="flex items-center gap-1">
                     <Clock className="w-3 h-3" />
                     <span>{time}</span>
@@ -103,14 +103,14 @@ export function GuestCard({ reservation, viewMode }: GuestCardProps) {
                 </div>
 
                 {/* Quick summary */}
-                <div className="text-sm text-muted-foreground line-clamp-2">
+                <div className="text-sm text-muted-foreground line-clamp-2 text-center">
                   {isBackOfHouse ? (kitchenNotes || "No special kitchen requirements") : (specialRequests || guestHistory)}
                 </div>
               </div>
             </div>
 
             {/* Visual Flags/Badges */}
-            <div className="flex flex-wrap gap-1.5">
+            <div className="flex flex-wrap gap-1.5 justify-center">
               {isBackOfHouse ? (
                 // Back of House Badges
                 <>

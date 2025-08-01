@@ -160,8 +160,8 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
   return (
     <div className="min-h-screen bg-background p-4 pb-20">
       {/* Header */}
-      <div className="mb-6">
-        <div className="flex items-center justify-between mb-4">
+      <div className="mb-6 text-center">
+        <div className="flex flex-col items-center mb-4">
           <div>
             <h1 className="text-5xl font-medium text-foreground">Morning Huddle</h1>
             <p className="text-2xl text-muted-foreground">Thursday, July 31, 2025</p>
@@ -169,7 +169,7 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
         </div>
 
         {/* View Toggle Buttons */}
-        <div className="flex gap-4 mb-6">
+        <div className="flex gap-4 mb-6 justify-center">
           <Button
             variant={viewMode === 'front-of-house' ? 'default' : 'outline'}
             onClick={() => onViewModeChange('front-of-house')}
@@ -195,86 +195,70 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
           {isBackOfHouse ? (
             // Back of House Stats
             <>
-              <Card className="p-3">
-                <div className="flex items-center gap-2">
+              <Card className="p-3 border-2">
+                <div className="flex items-center justify-center gap-2">
                   <UtensilsCrossed className="w-4 h-4 text-red-600" />
-                  <div>
-                    <div className="text-lg font-medium">{severeAllergyCount}</div>
-                    <div className="text-xs text-muted-foreground">Severe Allergies</div>
-                  </div>
+                  <span className="text-lg font-medium">{severeAllergyCount}</span>
+                  <span className="text-m text-muted-foreground">Severe Allergies</span>
                 </div>
               </Card>
               
-              <Card className="p-3">
-                <div className="flex items-center gap-2">
+              <Card className="p-3 border-2">
+                <div className="flex items-center justify-center gap-2">
                   <UtensilsCrossed className="w-4 h-4 text-orange-600" />
-                  <div>
-                    <div className="text-lg font-medium">{dietaryCount}</div>
-                    <div className="text-xs text-muted-foreground">Dietary Needs</div>
-                  </div>
+                  <span className="text-lg font-medium">{dietaryCount}</span>
+                  <span className="text-m text-muted-foreground">Dietary Needs</span>
                 </div>
               </Card>
               
-              <Card className="p-3">
-                <div className="flex items-center gap-2">
+              <Card className="p-3 border-2">
+                <div className="flex items-center justify-center gap-2">
                   <PartyPopper className="w-4 h-4 text-purple-600" />
-                  <div>
-                    <div className="text-lg font-medium">{celebrationCount}</div>
-                    <div className="text-xs text-muted-foreground">Special Orders</div>
-                  </div>
+                  <span className="text-lg font-medium">{celebrationCount}</span>
+                  <span className="text-m text-muted-foreground">Special Orders</span>
                 </div>
               </Card>
               
-              <Card className="p-3">
-                <div className="flex items-center gap-2">
+              <Card className="p-3 border-2">
+                <div className="flex items-center justify-center gap-2">
                   <Users className="w-4 h-4 text-blue-600" />
-                  <div>
-                    <div className="text-lg font-medium">{totalReservations}</div>
-                    <div className="text-xs text-muted-foreground">Total Covers</div>
-                  </div>
+                  <span className="text-lg font-medium">{totalReservations}</span>
+                  <span className="text-m text-muted-foreground">Total Covers</span>
                 </div>
               </Card>
             </>
           ) : (
             // Front of House Stats
             <>
-              <Card className="p-3">
-                <div className="flex items-center gap-2">
+              <Card className="p-3 border-2">
+                <div className="flex items-center justify-center gap-2">
                   <Users className="w-4 h-4 text-blue-600" />
-                  <div>
-                    <div className="text-lg font-medium">{totalReservations}</div>
-                    <div className="text-xs text-muted-foreground">Reservation</div>
-                  </div>
+                  <span className="text-lg font-medium">{totalReservations}</span>
+                  <span className="text-m text-muted-foreground">Reservation</span>
                 </div>
               </Card>
 
-              <Card className="p-3">
-                <div className="flex items-center gap-2">
+              <Card className="p-3 border-2">
+                <div className="flex items-center justify-center gap-2">
                   <UtensilsCrossed className="w-4 h-4 text-red-600" />
-                  <div>
-                    <div className="text-lg font-medium">{dietaryCount}</div>
-                    <div className="text-xs text-muted-foreground">Dietary Needs</div>
-                  </div>
+                  <span className="text-lg font-medium">{dietaryCount}</span>
+                  <span className="text-m text-muted-foreground">Dietary Needs</span>
                 </div>
               </Card>
 
-              <Card className="p-3">
-                <div className="flex items-center gap-2">
+              <Card className="p-3 border-2">
+                <div className="flex items-center justify-center gap-2">
                   <Star className="w-4 h-4 text-yellow-600" />
-                  <div>
-                    <div className="text-lg font-medium">{vipCount}</div>
-                    <div className="text-xs text-muted-foreground">VIP Guests</div>
-                  </div>
+                  <span className="text-lg font-medium">{vipCount}</span>
+                  <span className="text-m text-muted-foreground">VIP Guests</span>
                 </div>
               </Card>
               
-              <Card className="p-3">
-                <div className="flex items-center gap-2">
+              <Card className="p-3 border-2">
+                <div className="flex items-center justify-center gap-2">
                   <PartyPopper className="w-4 h-4 text-purple-600" />
-                  <div>
-                    <div className="text-lg font-medium">{celebrationCount}</div>
-                    <div className="text-xs text-muted-foreground">Celebrations</div>
-                  </div>
+                  <span className="text-lg font-medium">{celebrationCount}</span>
+                  <span className="text-m text-muted-foreground">Celebrations</span>
                 </div>
               </Card>
             </>
@@ -284,7 +268,7 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
 
       {/* Guest Cards */}
       <div>
-        <h2 className="text-lg font-medium text-foreground mb-3">
+        <h2 className="text-3xl font-medium text-foreground mb-3 text-center">
           {isBackOfHouse ? "Kitchen Prep Notes" : "Tonight's Reservations"}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
