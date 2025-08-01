@@ -9,12 +9,12 @@ Set your `OPENAI_API_KEY` in a `.env` file
 
 # To run backend
 
-`cd data/product-engineering`
-`poetry install`
+`cd data/product-engineering`<br>
+`poetry install`<br>
 `poetry run python server.py`
 
 # To run frontend
 
-`cd frontend`
-`npm i`
+`cd frontend`<br>
+`npm i`<br>
 `npm run dev`
