@@ -9,17 +9,15 @@ from analyze import Processor, DinersList
 
 app = FastAPI(title="Restaurant Insights API", version="1.0.0")
 
-# Add CORS middleware for frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Configure this for production
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 OUTPUT_FILE = "output.json"
-DATA_FILE = "fine-dining-dataset.json"
 
 @app.get("/")
 async def root():
@@ -27,9 +25,6 @@ async def root():
 
 @app.get("/api/profiles")
 async def get_profiles() -> Dict[str, Any]:
-    """
-    Get the current guest insights data from output.json
-    """
     try:
         if not os.path.exists(OUTPUT_FILE):
             raise HTTPException(

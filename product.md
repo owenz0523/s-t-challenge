@@ -27,13 +27,11 @@ adoption?
 I believe this is highly adoptable, given that I’d imagine a similar process already occurs during morning huddles most likely just with handmade notes
 
 Building:
-compile the data and use LLMs to extract the important information, filling out the important categories needed to create a guest profile
+compile the data and use LLMs to extract the important information, filling out the important categories needed to create a guest profile.
+super simple backend should suffice for this project, literally just need to receive fetch the json file and return it to the frontend - can be scaled if needed to the cloud
 data is then persisted through to the frontend which populates the dashboard
 agentism???
-data pipelines don’t really exist right now, but with them in place, could have an AI agent that runs every morning to compile this information prior to morning huddle
-
-don't need a backend for this project in its initial prototype since data can simply be stored in a new json file, 
-plan is to make these guest profiles in a json and then read it from the frontend directly to make building quicker
+don't think this product really benefits from agentism, a simple chron job should work since morning huddles have static information, occurring at the same time everyday
 
 source - https://www.pushoperations.com/blog/restaurant-management-the-value-of-pre-shift-huddles 
 

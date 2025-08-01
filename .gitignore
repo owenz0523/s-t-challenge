@@ -1,3 +1,5 @@
 .env
 
-*/__pycache__
+data/product-engineering/__pycache__/*
+
+frontend/node_modules
