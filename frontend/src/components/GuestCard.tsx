@@ -23,7 +23,6 @@ interface Reservation {
   guestName: string;
   partySize: number;
   time: string;
-  timeSort: number;
   isVip: boolean;
   dietaryRestrictions: string[];
   specialOccasion: string | null;
@@ -192,7 +191,7 @@ export function GuestCard({ reservation, viewMode }: GuestCardProps) {
       </DialogTrigger>
 
       {/* Modal Content */}
-      <DialogContent className="max-w-md mx-auto max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-4xl mx-auto max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             {isBackOfHouse ? `Kitchen Notes - ${guestName}` : guestName}
