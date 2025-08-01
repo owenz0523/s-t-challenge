@@ -28,10 +28,8 @@ interface Reservation {
   specialOccasion: string | null;
   accessibility: string | null;
   guestHistory: string;
-  favoriteItems: string[];
   conversationStarters: string[];
   specialRequests: string;
-  lastVisit: string | null;
   kitchenNotes?: string;
 }
 
@@ -52,10 +50,8 @@ export function GuestCard({ reservation, viewMode }: GuestCardProps) {
     specialOccasion,
     accessibility,
     guestHistory,
-    favoriteItems,
     conversationStarters,
     specialRequests,
-    lastVisit,
     kitchenNotes
   } = reservation;
 
@@ -267,21 +263,6 @@ export function GuestCard({ reservation, viewMode }: GuestCardProps) {
                 </div>
               )}
 
-              {/* Favorite Items for Kitchen Reference */}
-              {favoriteItems.length > 0 && (
-                <div>
-                  <div className="flex items-center gap-2 mb-2">
-                    <Utensils className="w-4 h-4 text-muted-foreground" />
-                    <span className="font-medium text-sm">Previous Favorites</span>
-                  </div>
-                  <div className="pl-6 space-y-1">
-                    {favoriteItems.map((item, index) => (
-                      <div key={index} className="text-sm text-muted-foreground">• {item}</div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
               {/* Special Requests from Kitchen Perspective */}
               {specialRequests && (
                 <div>
@@ -303,25 +284,7 @@ export function GuestCard({ reservation, viewMode }: GuestCardProps) {
                   <span className="font-medium text-sm">Guest History</span>
                 </div>
                 <p className="text-sm text-muted-foreground pl-6">{guestHistory}</p>
-                {lastVisit && (
-                  <p className="text-xs text-muted-foreground pl-6 mt-1">Last visit: {lastVisit}</p>
-                )}
               </div>
-
-              {/* Favorite Items */}
-              {favoriteItems.length > 0 && (
-                <div>
-                  <div className="flex items-center gap-2 mb-2">
-                    <Utensils className="w-4 h-4 text-muted-foreground" />
-                    <span className="font-medium text-sm">Favorite Items</span>
-                  </div>
-                  <div className="pl-6 space-y-1">
-                    {favoriteItems.map((item, index) => (
-                      <div key={index} className="text-sm text-muted-foreground">• {item}</div>
-                    ))}
-                  </div>
-                </div>
-              )}
 
               {/* Conversation Starters */}
               {conversationStarters.length > 0 && (

@@ -43,10 +43,8 @@ interface Reservation {
   specialOccasion: string | null;
   accessibility: string | null;
   guestHistory: string;
-  favoriteItems: string[];
   conversationStarters: string[];
   specialRequests: string;
-  lastVisit: string | null;
   kitchenNotes: string;
 }
 
@@ -86,10 +84,8 @@ const transformProfileToReservation = (profile: ApiProfile, index: number): Rese
     specialOccasion: profile.special_occassion || null,
     accessibility,
     guestHistory: profile.staff_notes,
-    favoriteItems: [], // Not available in API data
     conversationStarters: profile.conversation,
     specialRequests: profile.special_requests.join(', '),
-    lastVisit: null, // Not available in API data
     kitchenNotes: profile.staff_notes
   };
 };
