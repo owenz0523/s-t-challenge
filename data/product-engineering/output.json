@@ -1,0 +1,989 @@
+{
+    "generated_at": "2025-07-31T20:55:51.894228",
+    "total_reservations": 54,
+    "vip_count": 0,
+    "dietary_count": 17,
+    "special_occasion_count": 27,
+    "profiles": [
+      {
+        "name": "Emily Chen",
+        "date": "2024-05-20",
+        "people": 4,
+        "dietary_restrictions": [
+          "Gluten-free"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Adjust table for one more person",
+          "Details on the gluten-free amuse-bouche"
+        ],
+        "staff_notes": "Guest appreciates personal conversation and dislikes crowded environments. Ensure a comfortable and personal dining experience.",
+        "conversation": [
+          "Local art exhibits"
+        ]
+      },
+      {
+        "name": "David Martinez",
+        "date": "2024-05-20",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Client dinner",
+        "priority": "Regular",
+        "special_requests": [
+          "Private dining area",
+          "Special amuse-bouches"
+        ],
+        "staff_notes": "Guest prefers a confidential atmosphere and enjoys discussing football, specifically the 49ers. He appreciates good wine pairings and special surprises from the chef, such as a course featuring truffles.",
+        "conversation": [
+          "Football (49ers)",
+          "Wine pairings",
+          "Truffles"
+        ]
+      },
+      {
+        "name": "Karen Wu",
+        "date": "2024-12-10",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Mother's 70th birthday",
+        "priority": "Regular",
+        "special_requests": [
+          "Wheelchair accessible table",
+          "Small surprise for mother's birthday",
+          "Fruity dessert for mother"
+        ],
+        "staff_notes": "Guest's mother uses a wheelchair. Ensure the table is easy to navigate to. Prepare a small surprise for her 70th birthday, preferably a fruity dessert. The guest is a Yankees fan and enjoys talking about baseball.",
+        "conversation": [
+          "Yankees baseball team",
+          "Mother's interests"
+        ]
+      },
+      {
+        "name": "Peter Glover",
+        "date": "2024-11-01",
+        "people": 2,
+        "dietary_restrictions": [
+          "Walnut-free"
+        ],
+        "allergies": [
+          "Severe walnut allergy"
+        ],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Ensure no walnuts in any dish"
+        ],
+        "staff_notes": "Guest had a negative experience at another restaurant due to walnut allergy. Ensure kitchen staff is aware and takes necessary precautions.",
+        "conversation": [
+          "Local museums"
+        ]
+      },
+      {
+        "name": "Sylvia Brown",
+        "date": "2024-09-15",
+        "people": 3,
+        "dietary_restrictions": [
+          "Gluten-free"
+        ],
+        "allergies": [],
+        "special_occassion": "Celebrating a recent promotion",
+        "priority": "Regular",
+        "special_requests": [
+          "Recommendations for a celebratory champagne or dessert"
+        ],
+        "staff_notes": "Guest appreciates creative plant-based dishes and has a preference for well-seasoned food. She also values direct feedback requests from the team.",
+        "conversation": [
+          "Guest's recent promotion",
+          "Her interest in plant-based dishes",
+          "Her experience at other restaurants"
+        ]
+      },
+      {
+        "name": "Alicia Martin",
+        "date": "2025-02-14",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Valentine's Day dinner",
+        "priority": "Regular",
+        "special_requests": [
+          "Arrange a small note on the dessert plate that says 'I love you'"
+        ],
+        "staff_notes": "Guest appreciates attentive service and warm hospitality. Ensure food is served hot and promptly. She also enjoys learning about the food she's eating, as noted in her positive review of a sushi demonstration.",
+        "conversation": [
+          "Sushi and Japanese cuisine",
+          "Previous dining experiences"
+        ]
+      },
+      {
+        "name": "Benjamin Cruz",
+        "date": "2025-04-10",
+        "people": 4,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Kid-friendly menu or half portions for teenage niece"
+        ],
+        "staff_notes": "Guest prefers authentic flavors and is not fond of overly sweet sauces. He appreciates attentive and informative waitstaff. The guest may find loud environments disruptive to conversation.",
+        "conversation": [
+          "Guest's experience at other restaurants",
+          "Bubble tea",
+          "Kid-friendly meals"
+        ]
+      },
+      {
+        "name": "Chelsea Wright",
+        "date": "2025-03-05",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "3rd anniversary",
+        "priority": "Regular",
+        "special_requests": [
+          "Bring their own mini cake or restaurant arranged special cake"
+        ],
+        "staff_notes": "Guest prefers larger portion sizes and well-cooked food. Ensure service is organized and efficient.",
+        "conversation": [
+          "Discuss their experience at Truffle Garden and Don\u2019s Dumpling House",
+          "Ask about their anniversary plans"
+        ]
+      },
+      {
+        "name": "Dylan Hayes",
+        "date": "2025-01-20",
+        "people": 3,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Celebrating a big promotion",
+        "priority": "Regular",
+        "special_requests": [
+          "Small toast or something celebratory at the end"
+        ],
+        "staff_notes": "Guest appreciates well-cooked meat and quick service. Has a preference for French cuisine.",
+        "conversation": [
+          "Guest's recent promotion",
+          "French cuisine",
+          "Family"
+        ]
+      },
+      {
+        "name": "Eve Olsen",
+        "date": "2025-05-10",
+        "people": 4,
+        "dietary_restrictions": [
+          "None"
+        ],
+        "allergies": [
+          "None"
+        ],
+        "special_occassion": "Graduation celebration for guest's sister",
+        "priority": "Regular",
+        "special_requests": [
+          "Non-alcoholic options for celebratory toast",
+          "Scenic spots for photos"
+        ],
+        "staff_notes": "Guest appreciates attentive service and variety in food options. Ensure to offer a variety of toppings or accompaniments.",
+        "conversation": [
+          "Guest's sister's graduation",
+          "Guest's interest in fresh and varied food options"
+        ]
+      },
+      {
+        "name": "Felix Novak",
+        "date": "2025-01-02",
+        "people": 2,
+        "dietary_restrictions": [
+          "Lactose Intolerance"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Dairy-free options"
+        ],
+        "staff_notes": "Guest appreciates well-paired drinks and fresh food. Ensure all dishes and drinks are served at the correct temperature.",
+        "conversation": [
+          "Sake pairings",
+          "Fresh food ingredients"
+        ]
+      },
+      {
+        "name": "Gina Parker",
+        "date": "2025-03-11",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Date night",
+        "priority": "Regular",
+        "special_requests": [
+          "Small rose on the table"
+        ],
+        "staff_notes": "Guest has previously noted long wait times before order was taken. Ensure prompt service. Guest appreciates small details and gestures.",
+        "conversation": [
+          "Ask about their experience at Hibachi Flame and the flaming onion volcano"
+        ]
+      },
+      {
+        "name": "Henry Cooper",
+        "date": "2024-08-01",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Guest is planning to propose to his girlfriend",
+        "priority": "First-time",
+        "special_requests": [
+          "Discreetly bring out the engagement ring on a dessert plate"
+        ],
+        "staff_notes": "Guest's girlfriend does not like big public scenes, keep the proposal subtle",
+        "conversation": [
+          "Soccer",
+          "Desserts"
+        ]
+      },
+      {
+        "name": "Irene Roberts",
+        "date": "2024-12-02",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Belated birthday celebration for guest's father",
+        "priority": "Regular",
+        "special_requests": [
+          "Small birthday celebration with a candle in a chocolate dessert"
+        ],
+        "staff_notes": "Guest appreciates good tea and strong coffee. Dislikes weak coffee.",
+        "conversation": [
+          "Guest's father's birthday",
+          "Guest's interest in noodles and donuts",
+          "Tea and coffee preferences"
+        ]
+      },
+      {
+        "name": "Jacob Perez",
+        "date": "2025-01-15",
+        "people": 3,
+        "dietary_restrictions": [
+          "Less spicy food"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Wheelchair accessibility",
+          "Step-free entrance"
+        ],
+        "staff_notes": "Guest's father-in-law uses a wheelchair. Ensure the entrance is step-free and the table is easily accessible. The guest prefers less spicy food.",
+        "conversation": [
+          "Discuss cooking recommendations",
+          "Positive aspects of the restaurant"
+        ]
+      },
+      {
+        "name": "Julie Wilson",
+        "date": "2024-08-20",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Secluded corner table",
+          "Recommendations for starters"
+        ],
+        "staff_notes": "Guest has previously complained about lukewarm food. Ensure all dishes are served at the correct temperature. Guest appreciates spicy food, particularly Indian cuisine.",
+        "conversation": [
+          "Ask about her recent experiences at other restaurants",
+          "Discuss Indian cuisine and spicy foods"
+        ]
+      },
+      {
+        "name": "Kara Thompson",
+        "date": "2024-10-10",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Husband's big exam pass celebration",
+        "priority": "Regular",
+        "special_requests": [
+          "Add a 'Congratulations!' topper to any dessert"
+        ],
+        "staff_notes": "Guest has previously noted slow service and lack of coffee refills. Ensure prompt service and regular check-ins for this reservation.",
+        "conversation": [
+          "Guest enjoys a variety of grilled meats and veggies, and has a preference for memorable marinades",
+          "Guest's husband recently passed a big exam"
+        ]
+      },
+      {
+        "name": "Lance Ramirez",
+        "date": "2024-11-15",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Permission to take professional-level photos of the dishes"
+        ],
+        "staff_notes": "Guest appreciates rich flavors and well-prepared food. He also values pleasant staff interactions. Ensure the toppings on his dishes are secure and won't slide off.",
+        "conversation": [
+          "Photography",
+          "Ramen",
+          "Pizza"
+        ]
+      },
+      {
+        "name": "Maria Brooks",
+        "date": "2025-01-05",
+        "people": 2,
+        "dietary_restrictions": [
+          "mild spiciness"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "Ensure food is not too spicy"
+        ],
+        "staff_notes": "Guest appreciates when staff engage in conversation about local events and culture. Ensure food is well-prepared and served promptly.",
+        "conversation": [
+          "Local county fair",
+          "Southern culture",
+          "BBQ and smoked ribs"
+        ]
+      },
+      {
+        "name": "Noah Davis",
+        "date": "2024-08-18",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Father's Birthday",
+        "priority": "Regular",
+        "special_requests": [
+          "Quiet 'Happy Birthday' on a small dessert plate"
+        ],
+        "staff_notes": "Guest prefers no fuss for special occasions. Enjoyed a mini lesson on food last visit, might appreciate similar interactions.",
+        "conversation": [
+          "Difference between pancetta and bacon",
+          "Small plates and tapas"
+        ]
+      },
+      {
+        "name": "Olivia Morris",
+        "date": "2025-02-20",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Engagement announcement",
+        "priority": "First-time",
+        "special_requests": [
+          "Low-key engagement announcement with two glasses of champagne"
+        ],
+        "staff_notes": "Guest prefers warm food and flavorful dishes, based on her review of Crepe Castle. She also appreciates energetic staff, as noted in her review of Fiesta Pizza.",
+        "conversation": [
+          "Guest's recent engagement",
+          "Her experience at other restaurants"
+        ]
+      },
+      {
+        "name": "Paula Nelson",
+        "date": "2024-10-25",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Arrive 15 minutes early",
+          "White wine pairing for escargots"
+        ],
+        "staff_notes": "Guest enjoys discussing travel, particularly Greece. Also shows interest in food pairings.",
+        "conversation": [
+          "Travel tips for Greece",
+          "Wine and food pairings"
+        ]
+      },
+      {
+        "name": "Quinn Stevens",
+        "date": "2024-12-30",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [
+          "peanuts"
+        ],
+        "special_occassion": "New Year\u2019s Eve Eve Dinner",
+        "priority": "First-time",
+        "special_requests": [
+          "Special holiday menu preview",
+          "No nuts in the bisque"
+        ],
+        "staff_notes": "Guest is interested in unique flavors and imported ingredients. They were not impressed with underwhelming sides at a previous restaurant.",
+        "conversation": [
+          "Spices and their origin",
+          "Holiday plans",
+          "Unique flavors and dishes"
+        ]
+      },
+      {
+        "name": "Rosalind Tucker",
+        "date": "2025-01-25",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Guest would like to bring a special bottle of wine"
+        ],
+        "staff_notes": "Ensure correct order is served and it's hot. Guest had a bad experience with wrong and lukewarm food at another restaurant.",
+        "conversation": [
+          "Spain\u2019s soccer league",
+          "Wine pairing with salmon en papillote"
+        ]
+      },
+      {
+        "name": "Steven Upton",
+        "date": "2024-09-10",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Unknown, but guest has requested a box of macarons as a surprise for his wife, possibly indicating a celebration",
+        "priority": "Regular",
+        "special_requests": [
+          "Pre-order a small box of macarons to present at the end of the meal"
+        ],
+        "staff_notes": "Guest prefers balanced flavors, not overly sweet. Enjoys fusion cuisine.",
+        "conversation": [
+          "Guest's experience at other restaurants",
+          "Fusion cuisine",
+          "Macarons"
+        ]
+      },
+      {
+        "name": "Tamara Valdez",
+        "date": "2025-02-14",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [
+          "Shellfish"
+        ],
+        "special_occassion": "Valentine's Day",
+        "priority": "Regular",
+        "special_requests": [
+          "Modification of chef's tasting menu due to shellfish allergy"
+        ],
+        "staff_notes": "Guest has had mixed experiences at other restaurants, appreciates fresh ingredients and well-prepared food. Ensure all dishes, especially bread, are fresh.",
+        "conversation": [
+          "Guest's previous dining experiences",
+          "Guest's preference for fresh ingredients"
+        ]
+      },
+      {
+        "name": "Umar Watson",
+        "date": "2024-08-20",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "10th wedding anniversary",
+        "priority": "Regular",
+        "special_requests": [
+          "Add a small note on the dessert plate saying '10 Years Strong'",
+          "No singing or big fuss"
+        ],
+        "staff_notes": "Guest prefers a quiet celebration and appreciates friendly staff. They have had mixed experiences with desserts in the past.",
+        "conversation": [
+          "Guest enjoys a variety of banchan and bibimbap, indicating a preference for Korean cuisine"
+        ]
+      },
+      {
+        "name": "Valerie Xiu",
+        "date": "2025-01-03",
+        "people": 4,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Mother's birthday",
+        "priority": "Regular",
+        "special_requests": [
+          "Permission to bring own flowers or request for flowers onsite"
+        ],
+        "staff_notes": "Guest appreciates fresh ingredients and attentive staff. Had a negative experience with unripe fruit and disinterested staff at another restaurant.",
+        "conversation": [
+          "Guest's mother's birthday",
+          "Guest's interest in fresh ingredients and customizable food options"
+        ]
+      },
+      {
+        "name": "Wendy Young",
+        "date": "2024-10-05",
+        "people": 6,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Family Reunion",
+        "priority": "First-time",
+        "special_requests": [
+          "Push two tables together or provide a round table for 6",
+          "Inquire about group discount or special group menu"
+        ],
+        "staff_notes": "Guest has a preference for well-seasoned food, particularly enjoyed unique cheddar-thyme loaf at a previous restaurant",
+        "conversation": [
+          "Discuss the unique dishes of the restaurant",
+          "Talk about the family reunion"
+        ]
+      },
+      {
+        "name": "Xander Zimmerman",
+        "date": "2024-09-20",
+        "people": 2,
+        "dietary_restrictions": [
+          "Vegan"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "Permission to photograph each course for food blog"
+        ],
+        "staff_notes": "Guest is a food blogger and prefers vegan dishes. Ensure the dishes are presented well as they will be photographed. Also, the guest has expressed dissatisfaction with portion sizes at other restaurants, so ensure portions are satisfactory.",
+        "conversation": [
+          "Vegan cuisine",
+          "Food blogging",
+          "Photography"
+        ]
+      },
+      {
+        "name": "Yara Richards",
+        "date": "2025-02-22",
+        "people": 8,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Semi-private space for business discussion"
+        ],
+        "staff_notes": "Guest prefers less salty food, has a liking for artisanal cheese and specialty ciders",
+        "conversation": [
+          "Cheese and cider pairing",
+          "Local food products"
+        ]
+      },
+      {
+        "name": "Zoe Baxter",
+        "date": "2024-09-15",
+        "people": 2,
+        "dietary_restrictions": [
+          "No shellfish",
+          "No fish sauce"
+        ],
+        "allergies": [
+          "Severe shellfish allergy"
+        ],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Ni\u00e7oise to be prepared with absolutely no shellfish or fish sauce"
+        ],
+        "staff_notes": "Guest has a severe shellfish allergy. Ensure no cross-contamination in the kitchen. Avoid using fish sauce in any dish served to the guest.",
+        "conversation": [
+          "Discuss their experience at other restaurants",
+          "Ask about their preference for coffee"
+        ]
+      },
+      {
+        "name": "Alex Cunningham",
+        "date": "2024-10-01",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Girlfriend's birthday",
+        "priority": "Regular",
+        "special_requests": [
+          "Small surprise for girlfriend's birthday - miniature dessert with a candle"
+        ],
+        "staff_notes": "Guest prefers subtle celebrations. Enjoys variety in sauces and has an interest in smoking techniques.",
+        "conversation": [
+          "Smoking techniques for food",
+          "Variety of sauces"
+        ]
+      },
+      {
+        "name": "Brianna Daniels",
+        "date": "2024-12-12",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "Permission to take food photographs for Instagram"
+        ],
+        "staff_notes": "Guest is a food photographer and prefers authentic dishes. She does not appreciate loud music and greasy food.",
+        "conversation": [
+          "Photography",
+          "Social Media",
+          "Authentic Thai Cuisine"
+        ]
+      },
+      {
+        "name": "Carlos Edwards",
+        "date": "2025-01-18",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "Seating near piano or lounge area"
+        ],
+        "staff_notes": "Guest appreciates good food and has a preference for spicy dishes. His wife enjoys live piano music.",
+        "conversation": [
+          "Local hot sauce brands",
+          "Live music",
+          "Cajun cuisine"
+        ]
+      },
+      {
+        "name": "Diana Flores",
+        "date": "2024-09-10",
+        "people": 4,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Family Dinner",
+        "priority": "Regular",
+        "special_requests": [
+          "Child-friendly French dish or smaller portion"
+        ],
+        "staff_notes": "Guest appreciates authentic cuisine and dislikes pretentious plating. She is bringing her 10-year-old child who is interested in trying French cuisine.",
+        "conversation": [
+          "Guest's previous dining experiences",
+          "French cuisine",
+          "Child's interest in food"
+        ]
+      },
+      {
+        "name": "Ethan Garcia",
+        "date": "2025-02-05",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "25th Birthday",
+        "priority": "First-time",
+        "special_requests": [
+          "Low-key celebration with a small candle in a dessert, no singing",
+          "Dress code suggestions"
+        ],
+        "staff_notes": "Guest prefers less sweet sauces, enjoys bourbon and fluffy pancakes with bacon",
+        "conversation": [
+          "Bourbon selection",
+          "Pancakes and breakfast foods",
+          "Turning 25"
+        ]
+      },
+      {
+        "name": "Fiona Hamilton",
+        "date": "2024-11-10",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Arrive 30 minutes earlier for drinks at the bar"
+        ],
+        "staff_notes": "Guest enjoys variety in the menu and prefers less sweet sauces. They also enjoy interactive dining experiences like cooking at the table.",
+        "conversation": [
+          "Ask about their experience at other restaurants, discuss the variety of our menu, offer to explain the preparation of our dishes"
+        ]
+      },
+      {
+        "name": "Gabriella Ingram",
+        "date": "2025-01-11",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Celebrating nephew's scholarship achievement",
+        "priority": "Regular",
+        "special_requests": [
+          "Acknowledgement of nephew's scholarship achievement, possibly a card or note from the staff"
+        ],
+        "staff_notes": "Guest has shown appreciation for knowledgeable staff and unique food twists. However, she has had a negative experience with slow service in the past.",
+        "conversation": [
+          "Coffee and espresso drinks",
+          "Avocado toast",
+          "Nephew's scholarship achievement"
+        ]
+      },
+      {
+        "name": "Hank Johnson",
+        "date": "2024-12-20",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Table with enough aisle space for a cane"
+        ],
+        "staff_notes": "Guest's partner uses a cane. Ensure they have enough space to move comfortably without disturbing others.",
+        "conversation": [
+          "Local baseball stats"
+        ]
+      },
+      {
+        "name": "Iliana Kay",
+        "date": "2024-10-28",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Celebration for daughter's college acceptance",
+        "priority": "Regular",
+        "special_requests": [
+          "Small mention or a custom dessert message like 'Congrats on College'"
+        ],
+        "staff_notes": "Guest prefers dishes that are not overly sauced. Enjoys craft beer and hearty meals.",
+        "conversation": [
+          "Daughter's college acceptance",
+          "Craft beer",
+          "Hearty meals"
+        ]
+      },
+      {
+        "name": "Jake Lee",
+        "date": "2025-02-25",
+        "people": 2,
+        "dietary_restrictions": [
+          "Vegetarian"
+        ],
+        "allergies": [],
+        "special_occassion": "Announcement of first child",
+        "priority": "Regular",
+        "special_requests": [
+          "Small note on the dessert plate saying 'Baby on the Way'"
+        ],
+        "staff_notes": "Guest prefers homemade and fresh ingredients, had a bad experience with fish in the past",
+        "conversation": [
+          "Vegetarian food",
+          "Expecting first child"
+        ]
+      },
+      {
+        "name": "Laura Maxwell",
+        "date": "2024-09-05",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Dessert sampler or half portions of different desserts"
+        ],
+        "staff_notes": "Guest prefers well-seasoned food and rich, not heavy, dishes. She had a negative experience with under-seasoned curries and watery lassi at another restaurant.",
+        "conversation": [
+          "French-inspired bakery items",
+          "Desserts"
+        ]
+      },
+      {
+        "name": "Michelle Norton",
+        "date": "2025-01-12",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "Brunch-style items on the dinner menu"
+        ],
+        "staff_notes": "Guest appreciates passionate and knowledgeable staff, and timely service especially with coffee refills.",
+        "conversation": [
+          "Best fish markets in Tokyo",
+          "Coffee",
+          "Brunch food"
+        ]
+      },
+      {
+        "name": "Nora Owens",
+        "date": "2024-09-25",
+        "people": 2,
+        "dietary_restrictions": [
+          "No shellfish",
+          "No fish sauce"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [],
+        "staff_notes": "Guest prefers meals without shellfish or fish sauce. Ensure to provide attentive service as guest had a previous experience with indifferent service at another restaurant.",
+        "conversation": [
+          "Guest enjoys deli food, particularly Reuben sandwiches and pickles. Discuss our deli options."
+        ]
+      },
+      {
+        "name": "Oscar Patel",
+        "date": "2025-03-18",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Oscar Patel is planning to propose during the meal and has requested for a small string quartet to play one song",
+        "priority": "Regular",
+        "special_requests": [
+          "Small string quartet to play one song during the meal"
+        ],
+        "staff_notes": "Oscar Patel enjoys steak cooked to order and appreciates wine recommendations. He has had negative experiences with sushi in the past due to vinegary rice and less fresh fish.",
+        "conversation": [
+          "Wine recommendations",
+          "Steak preferences"
+        ]
+      },
+      {
+        "name": "Penelope Quinn",
+        "date": "2024-12-08",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "Dine at 6 PM and finish by 7:30 PM"
+        ],
+        "staff_notes": "Guest is attending a theater performance after dinner. Ensure prompt service to avoid delay.",
+        "conversation": [
+          "Ask about the theater performance they are attending"
+        ]
+      },
+      {
+        "name": "Ronald Rogers",
+        "date": "2025-01-28",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "Suggest a full-bodied red wine to pair with the boeuf bourguignon"
+        ],
+        "staff_notes": "Guest's wife is a wine lover. Ensure the wine pairing is perfect.",
+        "conversation": [
+          "College football rivalries",
+          "Wine"
+        ]
+      },
+      {
+        "name": "Sophie Sullivan",
+        "date": "2024-10-02",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [
+          "Cilantro"
+        ],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "No cilantro in any dishes or garnish"
+        ],
+        "staff_notes": "Guest prefers spicy food and enjoys sweet potato fries. Ensure toppings are evenly distributed in dishes.",
+        "conversation": [
+          "Discuss the guest's previous dining experiences, ask about their preference for spicy food"
+        ]
+      },
+      {
+        "name": "Thomas Vickers",
+        "date": "2024-12-20",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Light dinner, more desserts"
+        ],
+        "staff_notes": "Guest prefers well-cooked couscous and flavorful dishes. His wife has a preference for desserts. They might skip heavier main courses for multiple desserts.",
+        "conversation": [
+          "Truffles and their sourcing",
+          "Desserts and pastries",
+          "Seasonal sweets"
+        ]
+      },
+      {
+        "name": "Ursula Wood",
+        "date": "2025-02-10",
+        "people": 2,
+        "dietary_restrictions": [
+          "Low-sodium diet"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Low-sodium meals"
+        ],
+        "staff_notes": "Guest prefers thin-crust pizza with a tangy marinara sauce. She appreciates fresh ingredients and is not a fan of overly sauced dishes. She also values helpful staff.",
+        "conversation": [
+          "Ask about her experience at Pizza Pop and her preference for thin-crust pizza"
+        ]
+      },
+      {
+        "name": "Victor Xu",
+        "date": "2025-03-10",
+        "people": 2,
+        "dietary_restrictions": [],
+        "allergies": [],
+        "special_occassion": "Surprising partner with a gift",
+        "priority": "Regular",
+        "special_requests": [
+          "Present a small gift with dessert"
+        ],
+        "staff_notes": "Guest appreciates knowledgeable staff and clean environment. Pay attention to the quality of grilled dishes.",
+        "conversation": [
+          "Indian-French fusion cuisine",
+          "Restaurant cleanliness",
+          "Food presentation"
+        ]
+      },
+      {
+        "name": "Winnie Yee",
+        "date": "2024-10-15",
+        "people": 2,
+        "dietary_restrictions": [
+          "Vegan"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "Regular",
+        "special_requests": [
+          "Potential addition of a third seat"
+        ],
+        "staff_notes": "Guest prefers well-prepared vegan dishes and appreciates knowledge about local produce suppliers. Had a negative experience with overcooked steak and bland salad.",
+        "conversation": [
+          "Local produce",
+          "Vegan cuisine"
+        ]
+      },
+      {
+        "name": "Ximena Zhao",
+        "date": "2024-12-28",
+        "people": 2,
+        "dietary_restrictions": [
+          "Lactose Intolerance"
+        ],
+        "allergies": [],
+        "special_occassion": "",
+        "priority": "First-time",
+        "special_requests": [
+          "Swap dairy-heavy courses in the tasting menu"
+        ],
+        "staff_notes": "Guest's partner is lactose intolerant. Ensure to provide alternatives that don't compromise the overall experience. Guest appreciates experimental flavors and is understanding of busy periods but values efficient service.",
+        "conversation": [
+          "Experimental food flavors",
+          "Ramen",
+          "Tacos"
+        ]
+      }
+    ]
+  }

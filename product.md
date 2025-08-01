@@ -5,7 +5,7 @@ From my understanding, these morning huddles can be quite tedious, having to sca
 
 Product:
 Option 1 (Chosen):
-Never worked in a restaurant before, but I assume that a morning huddle would take the form of a physical huddle, with all workers in the same space. I know a lot of restaurants have tablets that they use to track orders - could build a mobile app so that each worker would be able to take a look at what the information they need to know.
+Never worked in a restaurant before, but I assume that a morning huddle would take the form of a physical huddle, with all workers in the same space. I know a lot of restaurants have tablets that they use to track orders - could build an app so that each worker would be able to take a look at what the information they need to know.
 
 Option 2:
 I believe that most restaurants have some screen within their facility all workers would be able to look at (ex. a large monitor). Could have one display to show this information (may be difficult if information needs to be brought up again).
@@ -31,6 +31,9 @@ compile the data and use LLMs to extract the important information, filling out 
 data is then persisted through to the frontend which populates the dashboard
 agentism???
 data pipelines don’t really exist right now, but with them in place, could have an AI agent that runs every morning to compile this information prior to morning huddle
+
+don't need a backend for this project in its initial prototype since data can simply be stored in a new json file, 
+plan is to make these guest profiles in a json and then read it from the frontend directly to make building quicker
 
 source - https://www.pushoperations.com/blog/restaurant-management-the-value-of-pre-shift-huddles 
 
