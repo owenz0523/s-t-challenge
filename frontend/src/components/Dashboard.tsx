@@ -90,10 +90,13 @@ const transformProfileToReservation = (profile: ApiProfile, index: number): Rese
   };
 };
 
+type FilterType = 'all' | 'vip' | 'dietary' | 'celebrations';
+
 export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
   const [reservations, setReservations] = useState<Reservation[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [activeFilter, setActiveFilter] = useState<FilterType>('all');
 
   useEffect(() => {
     const fetchProfiles = async () => {
@@ -120,17 +123,37 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
     fetchProfiles();
   }, []);
 
+  // Reset filter when view mode changes
+  useEffect(() => {
+    setActiveFilter('all');
+  }, [viewMode]);
+
   const totalReservations = reservations.length;
   const vipCount = reservations.filter(r => r.isVip).length;
   const dietaryCount = reservations.filter(r => r.dietaryRestrictions.length > 0).length;
   const celebrationCount = reservations.filter(r => r.specialOccasion).length;
-  const severeAllergyCount = reservations.filter(r => 
-    r.dietaryRestrictions.some(restriction => 
-      restriction.toLowerCase().includes('allergy') && restriction.toLowerCase().includes('severe')
-    )
-  ).length;
 
   const isBackOfHouse = viewMode === 'back-of-house';
+
+  // Filter reservations based on active filter
+  const filteredReservations = reservations.filter(reservation => {
+    switch (activeFilter) {
+      case 'vip':
+        return reservation.isVip;
+      case 'dietary':
+        return reservation.dietaryRestrictions.length > 0;
+      case 'celebrations':
+        return reservation.specialOccasion !== null;
+      case 'all':
+      default:
+        return true;
+    }
+  });
+
+  // Handle filter clicks
+  const handleFilterClick = (filter: FilterType) => {
+    setActiveFilter(activeFilter === filter ? 'all' : filter);
+  };
 
   if (loading) {
     return (
@@ -195,50 +218,80 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
           {isBackOfHouse ? (
             // Back of House Stats
             <>
-              <Card className="p-3 border-2">
+              <Card 
+                className={`p-3 border-2 cursor-pointer transition-all hover:shadow-md ${
+                  activeFilter === 'all' ? 'ring-2 ring-blue-500 bg-blue-50' : ''
+                }`}
+                onClick={() => handleFilterClick('all')}
+              >
                 <div className="flex items-center justify-center gap-2">
-                  <UtensilsCrossed className="w-4 h-4 text-red-600" />
-                  <span className="text-lg font-medium">{severeAllergyCount}</span>
-                  <span className="text-m text-muted-foreground">Severe Allergies</span>
+                  <Users className="w-4 h-4 text-blue-600" />
+                  <span className="text-lg font-medium">{totalReservations}</span>
+                  <span className="text-m text-muted-foreground">All</span>
                 </div>
               </Card>
               
-              <Card className="p-3 border-2">
+              <Card 
+                className={`p-3 border-2 cursor-pointer transition-all hover:shadow-md ${
+                  activeFilter === 'dietary' ? 'ring-2 ring-red-500 bg-red-50' : ''
+                }`}
+                onClick={() => handleFilterClick('dietary')}
+              >
                 <div className="flex items-center justify-center gap-2">
-                  <UtensilsCrossed className="w-4 h-4 text-orange-600" />
+                  <UtensilsCrossed className="w-4 h-4 text-red-600" />
                   <span className="text-lg font-medium">{dietaryCount}</span>
                   <span className="text-m text-muted-foreground">Dietary Needs</span>
                 </div>
               </Card>
-              
-              <Card className="p-3 border-2">
+
+              <Card 
+                className={`p-3 border-2 cursor-pointer transition-all hover:shadow-md ${
+                  activeFilter === 'vip' ? 'ring-2 ring-yellow-500 bg-yellow-50' : ''
+                }`}
+                onClick={() => handleFilterClick('vip')}
+              >
                 <div className="flex items-center justify-center gap-2">
-                  <PartyPopper className="w-4 h-4 text-purple-600" />
-                  <span className="text-lg font-medium">{celebrationCount}</span>
-                  <span className="text-m text-muted-foreground">Special Orders</span>
+                  <Star className="w-4 h-4 text-yellow-600" />
+                  <span className="text-lg font-medium">{vipCount}</span>
+                  <span className="text-m text-muted-foreground">VIP</span>
                 </div>
               </Card>
               
-              <Card className="p-3 border-2">
+              <Card 
+                className={`p-3 border-2 cursor-pointer transition-all hover:shadow-md ${
+                  activeFilter === 'celebrations' ? 'ring-2 ring-purple-500 bg-purple-50' : ''
+                }`}
+                onClick={() => handleFilterClick('celebrations')}
+              >
                 <div className="flex items-center justify-center gap-2">
-                  <Users className="w-4 h-4 text-blue-600" />
-                  <span className="text-lg font-medium">{totalReservations}</span>
-                  <span className="text-m text-muted-foreground">Total Covers</span>
+                  <PartyPopper className="w-4 h-4 text-purple-600" />
+                  <span className="text-lg font-medium">{celebrationCount}</span>
+                  <span className="text-m text-muted-foreground">Celebrations</span>
                 </div>
               </Card>
             </>
           ) : (
             // Front of House Stats
             <>
-              <Card className="p-3 border-2">
+              <Card 
+                className={`p-3 border-2 cursor-pointer transition-all hover:shadow-md ${
+                  activeFilter === 'all' ? 'ring-2 ring-blue-500 bg-blue-50' : ''
+                }`}
+                onClick={() => handleFilterClick('all')}
+              >
                 <div className="flex items-center justify-center gap-2">
                   <Users className="w-4 h-4 text-blue-600" />
                   <span className="text-lg font-medium">{totalReservations}</span>
-                  <span className="text-m text-muted-foreground">Reservation</span>
+                  <span className="text-m text-muted-foreground">All</span>
                 </div>
               </Card>
 
-              <Card className="p-3 border-2">
+              <Card 
+                className={`p-3 border-2 cursor-pointer transition-all hover:shadow-md ${
+                  activeFilter === 'dietary' ? 'ring-2 ring-red-500 bg-red-50' : ''
+                }`}
+                onClick={() => handleFilterClick('dietary')}
+              >
                 <div className="flex items-center justify-center gap-2">
                   <UtensilsCrossed className="w-4 h-4 text-red-600" />
                   <span className="text-lg font-medium">{dietaryCount}</span>
@@ -246,15 +299,25 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
                 </div>
               </Card>
 
-              <Card className="p-3 border-2">
+              <Card 
+                className={`p-3 border-2 cursor-pointer transition-all hover:shadow-md ${
+                  activeFilter === 'vip' ? 'ring-2 ring-yellow-500 bg-yellow-50' : ''
+                }`}
+                onClick={() => handleFilterClick('vip')}
+              >
                 <div className="flex items-center justify-center gap-2">
                   <Star className="w-4 h-4 text-yellow-600" />
                   <span className="text-lg font-medium">{vipCount}</span>
-                  <span className="text-m text-muted-foreground">VIP Guests</span>
+                  <span className="text-m text-muted-foreground">VIP</span>
                 </div>
               </Card>
               
-              <Card className="p-3 border-2">
+              <Card 
+                className={`p-3 border-2 cursor-pointer transition-all hover:shadow-md ${
+                  activeFilter === 'celebrations' ? 'ring-2 ring-purple-500 bg-purple-50' : ''
+                }`}
+                onClick={() => handleFilterClick('celebrations')}
+              >
                 <div className="flex items-center justify-center gap-2">
                   <PartyPopper className="w-4 h-4 text-purple-600" />
                   <span className="text-lg font-medium">{celebrationCount}</span>
@@ -270,9 +333,26 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
       <div>
         <h2 className="text-3xl font-medium text-foreground mb-3 text-center">
           {isBackOfHouse ? "Kitchen Prep Notes" : "Tonight's Reservations"}
+          {activeFilter !== 'all' && (
+            <span className="text-xl text-muted-foreground ml-2">
+              ({filteredReservations.length} of {reservations.length})
+            </span>
+          )}
         </h2>
+        {activeFilter !== 'all' && (
+          <div className="text-center mb-4">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setActiveFilter('all')}
+              className="text-sm"
+            >
+              Clear Filter
+            </Button>
+          </div>
+        )}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {reservations.map((reservation) => (
+          {filteredReservations.map((reservation) => (
             <GuestCard 
               key={reservation.id} 
               reservation={reservation} 
@@ -280,6 +360,13 @@ export function Dashboard({ viewMode, onViewModeChange }: DashboardProps) {
             />
           ))}
         </div>
+        {filteredReservations.length === 0 && activeFilter !== 'all' && (
+          <div className="text-center py-8">
+            <p className="text-muted-foreground text-lg">
+              No reservations match the current filter.
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
