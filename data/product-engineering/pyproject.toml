@@ -9,7 +9,11 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.12"
 pydantic = "^2.10.6"
-
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+python-multipart = "^0.0.17"
+openai = "^1.58.1"
+python-dotenv = "^1.0.1"
 
 [build-system]
 requires = ["poetry-core"]

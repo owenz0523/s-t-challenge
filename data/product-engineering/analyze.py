@@ -18,10 +18,10 @@ class Profile:
     dietary_restrictions: List[str]
     allergies: List[str]
     special_occassion: str
-    priority: str  # VIP, Regular, First-time
+    priority: str 
     special_requests: List[str]
     staff_notes: str
-    conversation: List[str]  # Topics to discuss with guest
+    conversation: List[str]
     
     def to_dict(self):
         return asdict(self)
