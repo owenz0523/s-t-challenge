@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Card } from './ui/card';
 import { Badge } from './ui/badge';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
@@ -11,27 +11,11 @@ import {
   Accessibility,
   MessageCircle,
   History,
-  Utensils,
   AlertTriangle,
   ChefHat
 } from 'lucide-react';
 
-export type ViewMode = 'front-of-house' | 'back-of-house';
-
-interface Reservation {
-  id: number;
-  guestName: string;
-  partySize: number;
-  time: string;
-  isVip: boolean;
-  dietaryRestrictions: string[];
-  specialOccasion: string | null;
-  accessibility: string | null;
-  guestHistory: string;
-  conversationStarters: string[];
-  specialRequests: string;
-  kitchenNotes?: string;
-}
+import { ViewMode, Reservation } from '../types/reservation';
 
 interface GuestCardProps {
   reservation: Reservation;
